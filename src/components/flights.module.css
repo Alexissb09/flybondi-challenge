@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.typeFlight {
+    color: yellow;
+}

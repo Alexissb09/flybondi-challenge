@@ -6,6 +6,10 @@ export const FlightCard = ({ flight }) => {
         {flight.data}
       </p>
       <p>
+        <strong>Origen: </strong>
+        {flight.origin}
+      </p>
+      <p>
         <strong>Destino: </strong>
         {flight.destination}
       </p>
